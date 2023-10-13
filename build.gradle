@@ -30,7 +30,7 @@ if (project.rootProject.file('local.properties').exists()) {
 
 
 android {
-	compileSdkVersion 33
+	compileSdkVersion 31
 	//buildToolsVersion "30.0.3"
 	useLibrary 'org.apache.http.legacy'
 	sourceSets {
@@ -65,7 +65,7 @@ android {
 	
 	defaultConfig{
 		minSdkVersion 19
-		targetSdkVersion 33
+		targetSdkVersion 31
 	}
 	packagingOptions {
 		exclude "META-INF/LICENSE"
